@@ -26,6 +26,7 @@ public class HibernateMain
     	p.setBrand("HP");
     	p.setPrice(50000);    	
     	s.save(p);
+    	System.out.println("Product is saved");
     	
     	
     	t.commit();
